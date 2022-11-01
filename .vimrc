@@ -32,7 +32,7 @@ set wildmode=longest,list
 runtime macros/matchit.vim
 
 let mapleader = " "
-nnoremap <silent> <Leader>b :Gblame<CR>
+nnoremap <silent> <Leader>b :Git blame<CR>
 nnoremap <silent> <Leader>c :set paste!<CR>
 nnoremap          <Leader>e :echo @%<CR>
 nnoremap <silent> <Leader><space> :noh<return>
